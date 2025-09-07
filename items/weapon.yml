@@ -1,0 +1,18 @@
+Tatsukitsune7_Beam:
+  Id: blaze_rod
+  Display: "&aBeam"
+  Options:
+    Unbreakable: true
+  Lore:
+  - "テスト武器"
+  ItemUpdater:
+    Version: 1
+  Attributes:
+    MainHand:
+      Damage: 25 ADD 
+      Armor: -0.25 MULTIPLY_BASE
+      ArmorToughness: -0.25 MULTIPLY_BASE
+  Group: 'Range-Weapon'
+  Skills:
+  - skill{s=Tatsukitsune7_Beam_skills} @self ~onSwing 
+  - cancelEvent{sync=true} @self ~onUse
