@@ -2,7 +2,7 @@ Tatsukitsune7_Beam_skills:
   Skills:
   - raytraceto{
       entitySkill=[
-        - damage{amount=20}
+        - damage{a=20;pi=true;ii=true} 
       ];
       locationSkill=[
         - particles{p=flame;a=20;s=0.2;hS=0.1;vS=0.1}
