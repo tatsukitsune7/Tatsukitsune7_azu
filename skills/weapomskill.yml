@@ -2,13 +2,14 @@ Tatsukitsune7_Beam_skills:
   Skills:
   - raytraceto{
     es=[
-      - damage{a="<caster.damage> * 1.2";ii=true;pi=true}
+      - damage{a="<caster.damage>;ii=true;pi=true}
     ];
     ls=[
       - e:pl{p=flame;a=1;fo=true} 
     ];
     rc=[
       - isPlayer false
+      - isMythicMob true
     ];
-    syo=3;
-    } @TL ~onUse 
+    fo=true;
+    origin=@forward{a=<random.-1to1>;so=<random.-5to5>;y=<random.-1to3>}} @TL ~onUse 
