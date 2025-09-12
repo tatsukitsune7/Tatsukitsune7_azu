@@ -1,4 +1,5 @@
 Tatsukitsune7_Beam_skills:
+  
   Skills:
   - raytrace{
       entitySkill=[
@@ -7,6 +8,9 @@ Tatsukitsune7_Beam_skills:
       ];
       locationSkill=[
         - particleline{particle=flame;amount=1;fromOrigin=true} @Origin
+      ];
+      rc=[
+        - isPlayer false
       ];
       startyoffset=1;
       targetyoffset=1;
