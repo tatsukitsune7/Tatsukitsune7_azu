@@ -4,10 +4,10 @@ Tatsukitsune7_Beam_skills:
   - raytrace{
       entitySkill=[
         - damage{a="<caster.damage> * 1.2";ii=true;pi=true}
-        - particleline{particle=flame;amount=1;} @Origin
+        - particleline{particle=flame;amount=1;fromOrigin=true} @self
       ];
       locationSkill=[
-        - particleline{particle=flame;amount=1;} @Origin
+        - particleline{particle=flame;amount=1;fromOrigin=true} @self
       ];
       rc=[
         - isPlayer false
