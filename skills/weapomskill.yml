@@ -8,9 +8,8 @@ Tatsukitsune7_Beam_skills:
     ls=[
       - e:pl{p=flame;a=1;fo=true} 
     ];
-    sso=[
-      =3
-    ];
     rc=[
       - isPlayer false
-    ]} @TL ~onUse 
+    ];
+    sso=3;
+    } @TL ~onUse 
