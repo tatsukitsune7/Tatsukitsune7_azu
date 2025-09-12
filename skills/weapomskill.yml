@@ -1,9 +1,8 @@
 Tatsukitsune7_Beam_skills:
   Skills:
-  - raytrace{
+  - raytraceto{
     es=[
       - damage{a="<caster.damage> * 1.2";ii=true;pi=true}
-      - e:pl{p=flame;a=1;fo=true}
     ];
     ls=[
       - e:pl{p=flame;a=1;fo=true} 
