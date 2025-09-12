@@ -14,4 +14,4 @@ Tatsukitsune7_Beam:
       ArmorToughness: -0.25 MULTIPLY_BASE
   Group: 'Range-Weapon'
   Skills:
-  - skill{s=Tatsukitsune7_Beam_skills} @self ~onSwing
+  - skill{s=Tatsukitsune7_Beam_skills} @self ~onUse
