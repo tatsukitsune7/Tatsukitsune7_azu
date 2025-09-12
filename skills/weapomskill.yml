@@ -10,5 +10,5 @@ Tatsukitsune7_Beam_skills:
     rc=[
       - isPlayer false
     ];
-    sso=3;
+    syo=3;
     } @TL ~onUse 
