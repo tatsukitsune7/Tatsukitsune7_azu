@@ -12,4 +12,4 @@ Tatsukitsune7_Beam_skills:
       - isMythicMob true
     ];
     fo=true;
-    origin=@forward{a=<random.-1to1>;so=<random.-5to5>;y=<random.-1to3>}} @TL
+    origin=@forward{a=<random.-1to1>;so=<random.-5to5>;y=<random.1to3>}} @TL
