@@ -1,6 +1,6 @@
 Tatsukitsune7_Beam_skills:
   Skills:
-  - raytraceto{
+  - raytrace{
       entitySkill=[
         - damage{a="<caster.damage> * 1.2";ii=true;pi=true}
         - particleline{particle=flame;amount=1;fromOrigin=true} @Origin
