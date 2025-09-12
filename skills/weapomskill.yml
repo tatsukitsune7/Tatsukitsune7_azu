@@ -11,4 +11,4 @@ Tatsukitsune7_Beam_skills:
       startyoffset=1;
       targetyoffset=1;
       useeyelocation=true
-      } @targetlocation ~onUse
+      } @targetlocation ~onSwing
