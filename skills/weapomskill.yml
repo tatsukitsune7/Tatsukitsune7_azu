@@ -11,5 +11,5 @@ Tatsukitsune7_Beam_skills:
       - isPlayer false
       - isMythicMob true
     ];
-    fo=true;
+    rw=1;fo=true;
     origin=@forward{a=<random.-1to1>;so=<random.-5to5>;y=<random.1to3>}} @TL
