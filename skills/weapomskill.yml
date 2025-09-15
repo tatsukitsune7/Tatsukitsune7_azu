@@ -77,7 +77,6 @@ Tatsukitsune7_Blade_Sskills:
     ]}
   - matCooldown{m=DIAMOND_SWORD} false 
   - crouching true
-
   Skills:
   - modifyMana{a=-200} @self
   - slash{
@@ -91,4 +90,20 @@ Tatsukitsune7_Blade_Sskills:
     oH=[
       - damage{a=<caster.damage>;ii=true;pi=true}
     ];
-    repeat=12;repeati=1}
+    oE=[
+      - skill{s=Tatsukitsune7_Blade_Sskills}
+    ];
+    repeat=16;repeati=1}
+Tatsukitsune7_Blade_Sskills_end:
+  - delay 10
+  - slash{
+    y=1.8;w=4;h=2;mpd=true;a=340;fo=1;
+    oP=[
+       - effect:particles{p=Sweep_Attack} 
+    ];roll=<random.180>;
+    oS=[
+      - sound{s=block.trial_spawner.ominous_activate;v=0.5;p=2;audience=caster}
+    ];
+    oH=[
+      - damage{a=<caster.damage>;ii=true;pi=true}
+    ];}
