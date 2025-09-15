@@ -15,8 +15,18 @@ Tatsukitsune7_Beam_skills:
     origin=@forward{a=<random.-1to1>;so=<random.-5to5>;y=<random.1to3>}} @TL
 
 Tatsukitsune7_Blade_skills:
-  Cooldown: 1
+  Cooldown:0.5
+  Conditions:
+  - wearing{s=HAND;i=Tatsukitsune7_Blade}
+  - hasMana{a=>35;
+    onFail=[
+      - message{m="&cマナが足りません。"} @self 
+    ]}
+  - matCooldown{m=DIAMOND_SWORD} false 
+
   Skills:
+  - setMaterialCooldown{m=DIAMOND_SWORD;d=10} @self
+  - modifyMana{a=-35} @self
   - skill{s=Tatsukitsune7_Blade_Process1}
   - skill{s=Tatsukitsune7_Blade_Process2}
   - skill{s=Tatsukitsune7_Blade_Process3}
@@ -31,7 +41,7 @@ Tatsukitsune7_Blade_Process1:
       - damage{a=<caster.damage>;ii=true;pi=true}
     ];
     fo=true;hnp=true;v=36;bulletType=DISPLAY;mat=diamond_sword;scale=1.25,1.25,1.25;yaw=0;pitch=1.57;roll=0.785;
-    origin=@forward{a=<random.-1to1>;so=<random.-5to5>;y=<random.1to3>}} @TL
+    origin=@forward{a=<random.-1to1>;so=<random.-3to3>;y=<random.1to3>}} @TL
     
 Tatsukitsune7_Blade_Process2:
   Skills:
@@ -43,7 +53,7 @@ Tatsukitsune7_Blade_Process2:
       - damage{a=<caster.damage>;ii=true;pi=true}
     ];
     fo=true;hnp=true;v=36;bulletType=DISPLAY;mat=diamond_sword;scale=1.25,1.25,1.25;yaw=0;pitch=1.57;roll=0.785;
-    origin=@forward{a=<random.-1to1>;so=<random.-4to4>;y=<random.1to3>}} @TL
+    origin=@forward{a=<random.-1to1>;so=<random.-3to3>;y=<random.1to3>}} @TL
 
 Tatsukitsune7_Blade_Process3:
   Skills:
