@@ -26,6 +26,5 @@ Tatsukitsune7_Blade_skills:
     oh=[
       - damage{a=10}
     ];
-    fo=true;hnp=true;v=6;bulletType=DISPLAY;mat=diamond_sword;scale=1.25,1.25,1.25;yaw=3.14;pitch=1.57;roll=0.785;
-    repeat=4;repeati=3;
-    origin=@forward{a=<random.-1to1>;so=<random.-5to5>;y=<random.1to3>}} @TL
+    fo=true;hnp=true;v=20;bulletType=DISPLAY;mat=diamond_sword;scale=1.25,1.25,1.25;yaw=3.14;pitch=1.57;roll=0.785;
+    origin=@forward{a=<random.-1to1>;so=<random.-5to5>;y=<random.1to3>}} @TL repeat=4;repeati=3
