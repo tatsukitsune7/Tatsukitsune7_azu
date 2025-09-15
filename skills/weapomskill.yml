@@ -27,6 +27,7 @@ Tatsukitsune7_Blade_skills:
   Skills:
   - modifyMana{a=-45} @self
   - setMaterialCooldown{m=DIAMOND_SWORD;d=10} @self
+  - sound{s=block.respawn_anchor.charge} @self 
   - skill{s=Tatsukitsune7_Blade_Process1}
   - skill{s=Tatsukitsune7_Blade_Process2}
   - skill{s=Tatsukitsune7_Blade_Process3}
@@ -40,9 +41,6 @@ Tatsukitsune7_Blade_Process1:
     oh=[
       - damage{a=<caster.damage>;ii=true;pi=true}
     ];
-    os=[
-      - e:s{s=block.respawn_anchor.charge} @self
-    ];
     fo=true;hp=false;hnp=true;v=36;bulletType=DISPLAY;mat=diamond_sword;scale=1.25,1.25,1.25;yaw=0;pitch=1.57;roll=0.785;
     origin=@forward{a=<random.-1to1>;so=<random.-2to2>;y=<random.1to3>}} @TL{d=20}
     
@@ -55,9 +53,6 @@ Tatsukitsune7_Blade_Process2:
     oh=[
       - damage{a=<caster.damage>;ii=true;pi=true}
     ];
-    os=[
-      - e:s{s=block.respawn_anchor.charge} @self
-    ];
     fo=true;hp=false;hnp=true;v=36;bulletType=DISPLAY;mat=diamond_sword;scale=1.25,1.25,1.25;yaw=0;pitch=1.57;roll=0.785;
     origin=@forward{a=<random.-1to1>;so=<random.-2to2>;y=<random.1to3>}} @TL{d=20}
 
@@ -69,9 +64,6 @@ Tatsukitsune7_Blade_Process3:
     ];
     oh=[
       - damage{a=<caster.damage>;ii=true;pi=true}
-    ];
-    os=[
-      - e:s{s=block.respawn_anchor.charge} @self
     ];
     fo=true;hp=false;hnp=true;v=36;bulletType=DISPLAY;mat=diamond_sword;scale=1.25,1.25,1.25;yaw=0;pitch=1.57;roll=0.785;
     origin=@forward{a=<random.-1to1>;so=<random.-2to2>;y=<random.1to3>}} @TL{d=20}
