@@ -15,14 +15,13 @@ Tatsukitsune7_Beam_skills:
     origin=@forward{a=<random.-1to1>;so=<random.-5to5>;y=<random.1to3>}} @TL
 
 Tatsukitsune7_Blade_skills:
-  Cooldown:1
+  Cooldown: 2
   Skills:
   - projectile{
     ot=[
-      - e:p{p=witch;a=1;fo=true}
+      - e:p{p=reverse_portal;a=1;fo=true}
     ];
     oh=[
-      - e:p{p=sweep_attack;a=2}
       - damage{a=<caster.damage>;ii=true;pi=true}
     ];
     fo=true;hnp=true;v=36;bulletType=DISPLAY;mat=diamond_sword;scale=1.25,1.25,1.25;yaw=0;pitch=1.57;roll=0.785;
