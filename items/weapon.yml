@@ -27,7 +27,7 @@ Tatsukitsune7_Blade:
     Version: 1
   Attributes:
     MainHand:
-      Damage: 25 ADD 
+      Damage: 34 ADD 
       Armor: -0.25 MULTIPLY_BASE
       ArmorToughness: -0.25 MULTIPLY_BASE
   Group: 'Melee-Weapon'
