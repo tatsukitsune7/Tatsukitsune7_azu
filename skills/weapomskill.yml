@@ -23,7 +23,6 @@ Tatsukitsune7_Blade_skills:
       - message{m="&cマナが足りません。"} @self 
     ]}
   - matCooldown{m=DIAMOND_SWORD} false 
-
   Skills:
   - setMaterialCooldown{m=DIAMOND_SWORD;d=10} @self
   - modifyMana{a=-35} @self
