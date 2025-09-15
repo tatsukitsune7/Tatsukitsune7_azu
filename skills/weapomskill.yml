@@ -36,7 +36,7 @@ Tatsukitsune7_Blade_Process1:
   Skills:
   - projectile{
     ot=[
-      - e:p{p=Totem_Of_Undying;a=2;fo=true}
+      - e:p{p=Totem_Of_Undying;a=2;fo=true;audience=caster}
     ];
     oh=[
       - damage{a=<caster.damage>;ii=true;pi=true}
@@ -49,7 +49,7 @@ Tatsukitsune7_Blade_Process2:
   Skills:
   - projectile{
     ot=[
-      - e:p{p=Totem_Of_Undying;a=2;fo=true}
+      - e:p{p=Totem_Of_Undying;a=2;fo=true;audience=caster}
     ];
     oh=[
       - damage{a=<caster.damage>;ii=true;pi=true}
@@ -62,7 +62,7 @@ Tatsukitsune7_Blade_Process3:
   Skills:
   - projectile{
     ot=[
-      - e:p{p=Totem_Of_Undying;a=2;fo=true}
+      - e:p{p=Totem_Of_Undying;a=2;fo=true;audience=caster}
     ];
     oh=[
       - damage{a=<caster.damage>;ii=true;pi=true}
