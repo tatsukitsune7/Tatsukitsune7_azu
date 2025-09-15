@@ -40,7 +40,7 @@ Tatsukitsune7_Blade_Process1:
     oh=[
       - damage{a=<caster.damage>;ii=true;pi=true}
     ];
-    fo=true;hp=false;v=36;bulletType=DISPLAY;mat=diamond_sword;scale=1.25,1.25,1.25;yaw=0;pitch=1.57;roll=0.785;
+    fo=true;hp=false;hnp=true;v=36;bulletType=DISPLAY;mat=diamond_sword;scale=1.25,1.25,1.25;yaw=0;pitch=1.57;roll=0.785;
     origin=@forward{a=<random.-1to1>;so=<random.-2to2>;y=<random.1to3>}} @TL{d=20}
     
 Tatsukitsune7_Blade_Process2:
@@ -52,7 +52,7 @@ Tatsukitsune7_Blade_Process2:
     oh=[
       - damage{a=<caster.damage>;ii=true;pi=true}
     ];
-    fo=true;hp=false;v=36;bulletType=DISPLAY;mat=diamond_sword;scale=1.25,1.25,1.25;yaw=0;pitch=1.57;roll=0.785;
+    fo=true;hp=false;hnp=true;v=36;bulletType=DISPLAY;mat=diamond_sword;scale=1.25,1.25,1.25;yaw=0;pitch=1.57;roll=0.785;
     origin=@forward{a=<random.-1to1>;so=<random.-2to2>;y=<random.1to3>}} @TL{d=20}
 
 Tatsukitsune7_Blade_Process3:
@@ -64,7 +64,7 @@ Tatsukitsune7_Blade_Process3:
     oh=[
       - damage{a=<caster.damage>;ii=true;pi=true}
     ];
-    fo=true;hp=false;v=36;bulletType=DISPLAY;mat=diamond_sword;scale=1.25,1.25,1.25;yaw=0;pitch=1.57;roll=0.785;
+    fo=true;hp=false;hnp=true;v=36;bulletType=DISPLAY;mat=diamond_sword;scale=1.25,1.25,1.25;yaw=0;pitch=1.57;roll=0.785;
     origin=@forward{a=<random.-1to1>;so=<random.-2to2>;y=<random.1to3>}} @TL{d=20}
 
 Tatsukitsune7_Blade_Sskills:

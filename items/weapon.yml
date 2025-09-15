@@ -28,8 +28,6 @@ Tatsukitsune7_Blade:
   Attributes:
     MainHand:
       Damage: 34 ADD 
-      Armor: -0.25 MULTIPLY_BASE
-      ArmorToughness: -0.25 MULTIPLY_BASE
   Group: 'Melee-Weapon'
   Skills:
   - skill{s=Tatsukitsune7_Blade_skills} @self ~onSwing
