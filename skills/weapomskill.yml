@@ -15,7 +15,7 @@ Tatsukitsune7_Beam_skills:
     origin=@forward{a=<random.-1to1>;so=<random.-5to5>;y=<random.1to3>}} @TL
 
 Tatsukitsune7_Blade_skills:
-  Cooldown: 0.25
+  Cooldown: 0.5
   Conditions:
   - wearing{s=HAND;i=Tatsukitsune7_Blade}
   - hasMana{a=>45;
@@ -26,7 +26,7 @@ Tatsukitsune7_Blade_skills:
   - crouching false 
   Skills:
   - modifyMana{a=-45} @self
-  - setMaterialCooldown{m=DIAMOND_SWORD;d=5} @self
+  - setMaterialCooldown{m=DIAMOND_SWORD;d=10} @self
   - skill{s=Tatsukitsune7_Blade_Process1}
   - skill{s=Tatsukitsune7_Blade_Process2}
   - skill{s=Tatsukitsune7_Blade_Process3}
