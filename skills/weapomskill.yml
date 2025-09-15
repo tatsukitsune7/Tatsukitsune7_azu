@@ -80,9 +80,8 @@ Tatsukitsune7_Blade_Sskills:
 
   Skills:
   - modifyMana{a=-200} @self
-  - setMaterialCooldown{m=DIAMOND_SWORD;d=400} @self
   - slash{
-    y=1.8;w=4;h=2;mpd=true;a=240;
+    y=1.8;w=4;h=2;mpd=true;a=240;fo=1;
     oP=[
        - effect:particles{p=White_Smoke;audience=caster} 
     ];roll=<random.-65to245>;
