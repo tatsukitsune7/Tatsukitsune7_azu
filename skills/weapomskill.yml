@@ -80,7 +80,7 @@ Tatsukitsune7_Blade_Sskills:
   Skills:
   - modifyMana{a=-200} @self
   - slash{
-    y=1.8;w=4;h=2;mpd=true;a=340;fo=1;hp=false;
+    y=1.8;w=4;h=2;mpd=true;a=340;fo=1;
     oP=[
        - effect:particles{p=White_Smoke;audience=caster} 
     ];roll=<random.-65to245>;
@@ -90,4 +90,7 @@ Tatsukitsune7_Blade_Sskills:
     oH=[
       - damage{a="<caster.damage>";ii=true;pi=true}
     ];
+    hC=[
+      - isPlayer false
+    ]
     repeat=16;repeati=1}
