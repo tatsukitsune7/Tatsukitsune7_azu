@@ -27,7 +27,7 @@ Tatsukitsune7_Blade:
     Version: 1
   Attributes:
     MainHand:
-      Damage: 34 ADD 
+      Damage: 40 ADD 
   Group: 'Melee-Weapon'
   Skills:
   - skill{s=Tatsukitsune7_Blade_skills} @self ~onSwing
