@@ -15,3 +15,21 @@ Tatsukitsune7_Beam:
   Group: 'Range-Weapon'
   Skills:
   - skill{s=Tatsukitsune7_Beam_skills} @self ~onUse
+
+Tatsukitsune7_Blade:
+  Id: diamond_sword
+  Display: "&aBlade"
+  Options:
+    Unbreakable: true
+  Lore:
+  - "テスト武器"
+  ItemUpdater:
+    Version: 1
+  Attributes:
+    MainHand:
+      Damage: 25 ADD 
+      Armor: -0.25 MULTIPLY_BASE
+      ArmorToughness: -0.25 MULTIPLY_BASE
+  Group: 'Melee-Weapon'
+  Skills:
+  - skill{s=Tatsukitsune7_blade_skills} @self ~onSwing

@@ -13,3 +13,18 @@ Tatsukitsune7_Beam_skills:
     ];
     rw=1;fo=true;
     origin=@forward{a=<random.-1to1>;so=<random.-5to5>;y=<random.1to3>}} @TL
+
+Tatsukitsune7_Blade_skills:
+  Skills:
+  - projectile{
+    os=[
+      - e:s{s=block.bell.use;p=0.7}@self
+    ];
+    ot=[
+      - e:p{p=reverse_portal;a=1;offset=2;fo=true}
+    ];
+    oh=[
+      - damage{a=10}
+    ];
+    fo=true;hnp=true;
+    origin=@forward{a=<random.-1to1>;so=<random.-5to5>;y=<random.1to3>}} @TL
