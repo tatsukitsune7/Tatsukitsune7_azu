@@ -33,4 +33,4 @@ Tatsukitsune7_Blade:
   Group: 'Melee-Weapon'
   Skills:
   - skill{s=Tatsukitsune7_Blade_skills} @self ~onSwing
-  - skill{s=Tatsukitsune7_Blade_skills} @self ~onUse
+  - skill{s=Tatsukitsune7_Blade_Sskills} @self ~onUse
