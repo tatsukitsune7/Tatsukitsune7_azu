@@ -41,7 +41,7 @@ Tatsukitsune7_Blade_Process1:
       - damage{a=<caster.damage>;ii=true;pi=true}
     ];
     fo=true;hnp=true;v=36;bulletType=DISPLAY;mat=diamond_sword;scale=1.25,1.25,1.25;yaw=0;pitch=1.57;roll=0.785;
-    origin=@forward{a=<random.-1to1>;so=<random.-3to3>;y=<random.1to3>}} @TL
+    origin=@forward{a=<random.-1to1>;so=<random.-2to2>;y=<random.1to3>}} @TL
     
 Tatsukitsune7_Blade_Process2:
   Skills:
@@ -53,7 +53,7 @@ Tatsukitsune7_Blade_Process2:
       - damage{a=<caster.damage>;ii=true;pi=true}
     ];
     fo=true;hnp=true;v=36;bulletType=DISPLAY;mat=diamond_sword;scale=1.25,1.25,1.25;yaw=0;pitch=1.57;roll=0.785;
-    origin=@forward{a=<random.-1to1>;so=<random.-3to3>;y=<random.1to3>}} @TL
+    origin=@forward{a=<random.-1to1>;so=<random.-2to2>;y=<random.1to3>}} @TL
 
 Tatsukitsune7_Blade_Process3:
   Skills:
@@ -65,4 +65,31 @@ Tatsukitsune7_Blade_Process3:
       - damage{a=<caster.damage>;ii=true;pi=true}
     ];
     fo=true;hnp=true;v=36;bulletType=DISPLAY;mat=diamond_sword;scale=1.25,1.25,1.25;yaw=0;pitch=1.57;roll=0.785;
-    origin=@forward{a=<random.-1to1>;so=<random.-3to3>;y=<random.1to3>}} @TL
+    origin=@forward{a=<random.-1to1>;so=<random.-2to2>;y=<random.1to3>}} @TL
+
+Tatsukitsune7_Blade_Sskills:
+  Cooldown: 20
+  Conditions:
+  - wearing{s=HAND;i=Tatsukitsune7_Blade}
+  - hasMana{a=>200;
+    onFail=[
+      - message{m="&cマナが足りません。"} @self 
+    ]}
+  - matCooldown{m=DIAMOND_SWORD} false 
+  - crouching true
+
+  Skills:
+  - modifyMana{a=-200} @self
+  - setMaterialCooldown{m=DIAMOND_SWORD;d=400} @self
+  - slash{
+    y=1.8;w=4;h=2;mpd=true;a=240;
+    oP=[
+       - effect:particles{p=White_Smoke;audience=caster} 
+    ];roll=<random.-65to245>;
+    oS=[
+      - sound{s=block.trial_spawner.ominous_activate;v=0.5;p=2;audience=caster}
+    ];
+    oH=[
+      - damage{a=<caster.damage>;ii=true;pi=true}
+    ];
+    repeat=12;repeati=1}
