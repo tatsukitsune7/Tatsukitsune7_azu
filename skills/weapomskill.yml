@@ -19,10 +19,10 @@ Tatsukitsune7_Blade_skills:
   Skills:
   - projectile{
     ot=[
-      - e:p{p=Witch;a=1;fo=true}
+      - e:p{p=witch;a=1;fo=true}
     ];
     oh=[
-      - e:p{p=Sweep_Attack;a=2}
+      - e:p{p=sweep_attack;a=2}
       - damage{a=<caster.damage>;ii=true;pi=true}
     ];
     fo=true;hnp=true;v=36;bulletType=DISPLAY;mat=diamond_sword;scale=1.25,1.25,1.25;yaw=0;pitch=1.57;roll=0.785;
