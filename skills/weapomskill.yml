@@ -18,14 +18,14 @@ Tatsukitsune7_Blade_skills:
   Cooldown: 0.25
   Conditions:
   - wearing{s=HAND;i=Tatsukitsune7_Blade}
-  - hasMana{a=>35;
+  - hasMana{a=>45;
     onFail=[
       - message{m="&cマナが足りません。"} @self 
     ]}
   - matCooldown{m=DIAMOND_SWORD} false 
   - crouching false 
   Skills:
-  - modifyMana{a=-35} @self
+  - modifyMana{a=-45} @self
   - setMaterialCooldown{m=DIAMOND_SWORD;d=5} @self
   - skill{s=Tatsukitsune7_Blade_Process1}
   - skill{s=Tatsukitsune7_Blade_Process2}
