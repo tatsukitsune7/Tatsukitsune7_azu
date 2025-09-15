@@ -17,14 +17,11 @@ Tatsukitsune7_Beam_skills:
 Tatsukitsune7_Blade_skills:
   Skills:
   - projectile{
-    os=[
-      - e:s{s=block.bell.use;p=0.7}@self
-    ];
     ot=[
       - e:p{p=reverse_portal;a=1;fo=true}
     ];
     oh=[
       - damage{a=10}
     ];
-    fo=true;hnp=true;v=20;bulletType=DISPLAY;mat=diamond_sword;scale=1.25,1.25,1.25;yaw=3.14;pitch=1.57;roll=0.785;
+    fo=true;hnp=true;v=36;bulletType=DISPLAY;mat=diamond_sword;scale=1.25,1.25,1.25;yaw=3.14;pitch=1.57;roll=0;
     origin=@forward{a=<random.-1to1>;so=<random.-5to5>;y=<random.1to3>}} @TL
